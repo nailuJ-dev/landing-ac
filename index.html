@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="fr"> <!-- Langue par défaut du contenu initial -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alain Coppolani - Expert en Afghanistan et Finance Islamique. Consultant, chercheur et écrivain offrant une double expertise unique.">
+    <meta name="keywords" content="Afghanistan, Finance Islamique, Consultant, Chercheur, INALCO, CeRMI">
+    <meta property="og:title" content="Alain Coppolani - Expert Afghanistan et Finance Islamique">
+    <meta property="og:description" content="Double expertise unique sur l'Afghanistan et la finance islamique.">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="index, follow">
+    <title>Alain Coppolani - Expert Afghanistan et Finance Islamique</title>
+    
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo">
+                    <span class="logo-accent">A.C.</span>
+                    <span class="logo-text">Alain Coppolani</span>
+                </a>
+                
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active" data-lang-key="nav.home">Accueil</a></li>
+                        <li><a href="#expertise" class="nav-link" data-lang-key="nav.expertise">Expertise</a></li>
+                        <li><a href="#services" class="nav-link" data-lang-key="nav.services">Services</a></li>
+                        <li><a href="#about" class="nav-link" data-lang-key="nav.about">À propos</a></li>
+                        <li><a href="#faq" class="nav-link" data-lang-key="nav.faq">FAQ</a></li>
+                        <li><a href="#contact" class="nav-link" data-lang-key="nav.contact">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="nav-actions">
+                    <div class="language-switcher">
+                        <button class="lang-btn active" data-lang="fr">FR</button>
+                        <button class="lang-btn" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="ar">عربي</button>
+                    </div>
+                    
+                    <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <button id="close-menu-btn" class="close-menu-btn" aria-label="Fermer">
+            <i class="fas fa-times"></i>
+        </button>
+        
+        <ul class="mobile-nav-list">
+            <li><a href="#home" class="mobile-nav-link" data-lang-key="nav.home">Accueil</a></li>
+            <li><a href="#expertise" class="mobile-nav-link" data-lang-key="nav.expertise">Expertise</a></li>
+            <li><a href="#services" class="mobile-nav-link" data-lang-key="nav.services">Services</a></li>
+            <li><a href="#about" class="mobile-nav-link" data-lang-key="nav.about">À propos</a></li>
+            <li><a href="#faq" class="mobile-nav-link" data-lang-key="nav.faq">FAQ</a></li>
+            <li><a href="#contact" class="mobile-nav-link" data-lang-key="nav.contact">Contact</a></li>
+        </ul>
+        
+        <div class="mobile-lang-switcher">
+            <button class="lang-btn active" data-lang="fr">FR</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="ar">عربي</button>
+        </div>
+    </div>
+    
+    <div class="overlay"></div>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-pattern">
+            <img src="./images/hero-image.jpg" alt="Photo d'une mosquée de nuit">
+        </div>
+        
+        <svg class="arabic-svg arabic-svg-top" viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
+            <path class="arabic-path" d="M100,75 C150,50 200,45 250,70 S350,90 400,70 S500,40 550,70 S650,100 700,75" fill="none" stroke-width="2" />
+            <path class="arabic-path" d="M150,100 C200,85 250,75 300,90 S400,110 450,90 S550,65 600,90" fill="none" stroke-width="2" style="animation-delay: 0.5s" />
+        </svg>
+        
+        <div class="container hero-content">
+            <h1 class="hero-title" data-lang-key="hero.name">Alain Coppolani</h1>
+            <p class="hero-subtitle" data-lang-key="hero.title">Expert en Afghanistan et Finance Islamique</p>
+            <p class="hero-description" data-lang-key="hero.description">
+                De l'expérience de terrain à l'analyse stratégique, mon parcours unique me permet d'offrir des perspectives inégalées sur l'Afghanistan et la finance islamique.
+            </p>
+            <div class="hero-buttons">
+                <a href="#expertise" class="btn btn-primary" data-lang-key="hero.btn.expertise">Découvrir mon expertise</a>
+                <a href="#contact" class="btn btn-secondary" data-lang-key="hero.btn.contact">Me contacter</a>
+            </div>
+        </div>
+        
+        <svg class="arabic-svg arabic-svg-bottom" viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
+            <path class="arabic-path" d="M200,60 C250,40 300,50 350,40 S450,20 500,40 S600,65 650,60" fill="none" stroke-width="1.5" style="animation-delay: 1s" />
+            <path class="arabic-path" d="M250,110 C300,90 350,110 400,100 S500,80 550,100" fill="none" stroke-width="1.5" style="animation-delay: 1.5s" />
+        </svg>
+    </section>
+    
+    <!-- Expertise Section -->
+    <section id="expertise" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title" data-lang-key="expertise.mainTitle">Une double expertise unique</h2>
+            
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="expertise-header">
+                        <div class="service-icon"><i class="fas fa-map-marked-alt"></i></div>
+                        <h3 data-lang-key="expertise.afg.title">L'Afghanistan décodé</h3>
+                    </div>
+                    <p data-lang-key="expertise.afg.desc">Expert de référence sur l'Afghanistan : ancien militaire des forces spéciales décoré, chercheur affilié à l'INALCO et au Centre de recherche sur le monde iranien (CeRMI).</p>
+                    <ul class="expertise-list">
+                        <li><i class="fas fa-check"></i> <span data-lang-key="expertise.afg.item1">Expérience militaire directe en Afghanistan</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lang-key="expertise.afg.item2">Maîtrise des langues locales : dari et pachto</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lang-key="expertise.afg.item3">Thèse doctorale sur les enjeux socioéconomiques</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lang-key="expertise.afg.item4">Réseau de contacts locaux développé sur plusieurs années</span></li>
+                    </ul>
+                </div>
+                
+                <div class="expertise-card">
+                    <div class="expertise-header">
+                        <div class="service-icon"><i class="fas fa-landmark"></i></div>
+                        <h3 data-lang-key="expertise.islamicFinance.title">La finance islamique maîtrisée</h3>
+                    </div>
+                    <p data-lang-key="expertise.islamicFinance.desc">Expert en finance islamique avec une spécialisation unique sur son application dans les contextes post-conflit et les économies en transition comme l'Afghanistan.</p>
+                    <ul class="expertise-list">
+                        <li><i class="fas fa-check"></i> <span data-lang-key="expertise.islamicFinance.item1">MBA en Finance Islamique</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lang-key="expertise.islamicFinance.item2">Analyse comparative des systèmes financiers</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lang-key="expertise.islamicFinance.item3">Développement de produits financiers conformes à la Charia</span></li>
+                        <li><i class="fas fa-check"></i> <span data-lang-key="expertise.islamicFinance.item4">Microfinance islamique comme outil de développement</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="publication-card">
+                <h3 data-lang-key="expertise.publications.title">Publications de référence</h3>
+                <div class="publication-content">
+                    <div class="publication-image">
+                        <img src="images/book-cover.jpg" alt="Couverture du livre" loading="lazy">
+                    </div>
+                    <div class="publication-details">
+                        <h4 data-lang-key="expertise.publications.bookTitle">"Si l'Afghanistan m'était conté : Les réalités d'un pays complexe"</h4>
+                        <p class="publication-publisher" data-lang-key="expertise.publications.publisher">Éditions Les Belles Lettres, 2024</p>
+                        <p class="publication-quote" data-lang-key="expertise.publications.quote">"Un ouvrage qui fait la lumière sur les réalités d'un pays complexe et s'intéresse à de nombreux aspects passés totalement sous silence dans la littérature francophone."</p>
+                        <p data-lang-key="expertise.publications.bookDesc">Ce livre analyse les complexités sociales, politiques et économiques de l'Afghanistan moderne, offrant un regard nouveau sur ce pays souvent mal compris.</p>
+                        <a href="#" class="publication-link" data-lang-key="expertise.publications.bookLink">En savoir plus sur l'ouvrage →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title" data-lang-key="services.mainTitle">Services stratégiques et conseil</h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-globe"></i></div>
+                    <h3 data-lang-key="services.orgInt.title">Pour les organisations internationales</h3>
+                    <ul class="service-list">
+                        <li><i class="fas fa-angle-right"></i> <span data-lang-key="services.orgInt.item1">Analyse stratégique de l'environnement afghan</span></li>
+                        <li><i class="fas fa-angle-right"></i> <span data-lang-key="services.orgInt.item2">Due diligence culturelle pour opérations</span></li>
+                        <li><i class="fas fa-angle-right"></i> <span data-lang-key="services.orgInt.item3">Évaluation d'impact des projets</span></li>
+                        <li><i class="fas fa-angle-right"></i> <span data-lang-key="services.orgInt.item4">Formation interculturelle pour équipes</span></li>
+                        <li><i class="fas fa-angle-right"></i> <span data-lang-key="services.orgInt.item5">Médiation avec acteurs locaux afghans</span></li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3 data-lang-key="services.finInst.title">Pour les institutions financières</h3>
+                    <ul class="service-list">
+                        <li><i class="fas fa-angle-right"></i> <span data-lang-key="services.finInst.item1">Conseil en conformité Charia</span></li>
+                        <li><i class="fas fa-angle-right"></i> <span data-lang-key="services.finInst.item2">Développement stratégique sur les marchés</span></li>
+                        <li><i class="fas fa-angle-right"></i> <span data-lang-key="services.finInst.item3">Structuration de produits adaptés</span></li>
+                        <li><i class="fas fa-angle-right"></i> <span data-lang-key="services.finInst.item4">Analyse de marché pour la finance islamique</span></li>
+                        <li><i class="fas fa-angle-right"></i> <span data-lang-key="services.finInst.item5">Formation d'équipes aux spécificités</span></li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-university"></i></div>
+                    <h3 data-lang-key="services.acadMedia.title">Pour les milieux académiques et médias</h3>
+                    <ul class="service-list">
+                        <li><i class="fas fa-angle-right"></i> <span data-lang-key="services.acadMedia.item1">Conférences spécialisées</span></li>
+                        <li><i class="fas fa-angle-right"></i> <span data-lang-key="services.acadMedia.item2">Séminaires de formation</span></li>
+                        <li><i class="fas fa-angle-right"></i> <span data-lang-key="services.acadMedia.item3">Analyse experte pour médias</span></li>
+                        <li><i class="fas fa-angle-right"></i> <span data-lang-key="services.acadMedia.item4">Interviews et commentaires sur l'actualité</span></li>
+                        <li><i class="fas fa-angle-right"></i> <span data-lang-key="services.acadMedia.item5">Collaboration académique sur projets de recherche</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title" data-lang-key="about.mainTitle">À propos</h2>
+            
+            <div class="about-grid">
+                <div class="about-sidebar">
+                    <img src="images/alain-coppolani.jpg" alt="Alain Coppolani" class="about-photo" loading="lazy">
+                    <h3 data-lang-key="about.name">Alain Coppolani</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <div class="about-location">
+                        <p><i class="fas fa-map-marker-alt"></i> <span data-lang-key="about.location">Meudon, France</span></p>
+                        <p><i class="fas fa-globe"></i> <span data-lang-key="about.availability">Disponible pour missions internationales</span></p>
+                    </div>
+                </div>
+                
+                <div class="about-content">
+                    <h3 data-lang-key="about.assetsTitle">Atouts distinctifs</h3>
+                    <div class="atouts-list">
+                        <div class="atout-item">
+                            <div class="atout-marker"></div>
+                            <div class="atout-content">
+                                <h4 data-lang-key="about.asset1.title">Double expertise unique et complémentaire</h4>
+                                <p data-lang-key="about.asset1.desc">Une vision transversale de l'Afghanistan et de la finance islamique, permettant une compréhension systémique des enjeux.</p>
+                            </div>
+                        </div>
+                        <div class="atout-item">
+                            <div class="atout-marker"></div>
+                            <div class="atout-content">
+                                <h4 data-lang-key="about.asset2.title">Connaissance linguistique exceptionnelle</h4>
+                                <p data-lang-key="about.asset2.desc">Français, dari (persan afghan), pachto, notions d'arabe classique, roumain, permettant un accès direct aux sources et aux interlocuteurs locaux.</p>
+                            </div>
+                        </div>
+                        <div class="atout-item">
+                            <div class="atout-marker"></div>
+                            <div class="atout-content">
+                                <h4 data-lang-key="about.asset3.title">Alliance rare entre expérience de terrain et expertise académique</h4>
+                                <p data-lang-key="about.asset3.desc">Une approche à la fois pratique et théorique, nourrie par l'expérience militaire et la rigueur de la recherche universitaire.</p>
+                            </div>
+                        </div>
+                        <div class="atout-item">
+                            <div class="atout-marker"></div>
+                            <div class="atout-content">
+                                <h4 data-lang-key="about.asset4.title">Réseau international</h4>
+                                <p data-lang-key="about.asset4.desc">Des contacts solides dans les domaines diplomatique, académique, financier et sécuritaire, facilitant l'accès à l'information et l'efficacité opérationnelle.</p>
+                            </div>
+                        </div>
+                        <div class="atout-item">
+                            <div class="atout-marker"></div>
+                            <div class="atout-content">
+                                <h4 data-lang-key="about.asset5.title">Approche pluridisciplinaire</h4>
+                                <p data-lang-key="about.asset5.desc">Une méthodologie intégrant géopolitique, économie, anthropologie et finance pour des analyses complètes et nuancées.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3 data-lang-key="about.affiliationsTitle">Affiliations</h3>
+                    <div class="affiliations-grid">
+                        <div class="affiliation-card">
+                            <p data-lang-key="about.affiliation1">Institut national des langues et civilisations orientales (INALCO)</p>
+                        </div>
+                        <div class="affiliation-card">
+                            <p data-lang-key="about.affiliation2">Centre de recherche sur le monde iranien (CeRMI, UMR 8041)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="section bg-dark">
+        <div class="container">
+            <h2 class="section-title text-white" data-lang-key="testimonials.mainTitle">Témoignages</h2>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-wrapper">
+                    <div class="testimonial-card active">
+                        <p data-lang-key="testimonials.t1.quote">"L'expertise d'Alain Coppolani sur l'Afghanistan nous a permis de structurer notre projet humanitaire avec une compréhension inédite du contexte local. Sa connaissance du terrain et des réalités culturelles a été déterminante."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"></div>
+                            <div>
+                                <p class="author-name" data-lang-key="testimonials.t1.author">Marie Durand</p>
+                                <p class="author-title" data-lang-key="testimonials.t1.title">Directrice de programme, ONG internationale</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <p data-lang-key="testimonials.t2.quote">"Le conseil d'Alain sur nos produits de finance islamique a été inestimable. Sa compréhension des marchés émergents et sa capacité à adapter les principes islamiques aux réalités économiques modernes ont grandement contribué à notre succès."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"></div>
+                            <div>
+                                <p class="author-name" data-lang-key="testimonials.t2.author">Hassan Mahmoud</p>
+                                <p class="author-title" data-lang-key="testimonials.t2.title">Directeur, Banque de développement</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <p data-lang-key="testimonials.t3.quote">"Les conférences d'Alain combinent rigueur académique et expérience pratique. Nos étudiants ont particulièrement apprécié sa capacité à vulgariser des sujets complexes tout en restant fidèle aux nuances socioculturelles et géopolitiques de l'Afghanistan."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"></div>
+                            <div>
+                                <p class="author-name" data-lang-key="testimonials.t3.author">Prof. Sarah Cohen</p>
+                                <p class="author-title" data-lang-key="testimonials.t3.title">Directrice du département d'études orientales, Université Paris 8</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-dots">
+                    <button class="dot active" data-index="0" aria-label="Témoignage 1"></button>
+                    <button class="dot" data-index="1" aria-label="Témoignage 2"></button>
+                    <button class="dot" data-index="2" aria-label="Témoignage 3"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+        <div class="container">
+            <h2 class="section-title" data-lang-key="faq.mainTitle">Questions fréquentes</h2>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-lang-key="faq.q1.question">Comment votre expérience militaire informe-t-elle votre analyse de l'Afghanistan actuel ?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-lang-key="faq.q1.answer">Mon expérience au sein des forces spéciales m'a permis d'observer directement les dynamiques sociales, tribales et politiques afghanes, loin des analyses théoriques. Cette immersion prolongée sur le terrain, combinée à ma maîtrise des langues locales, me donne une compréhension intime des réalités afghanes que peu d'analystes possèdent. Je peux ainsi décrypter les évolutions actuelles à la lumière d'observations directes et de relations personnelles développées sur plusieurs années.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-lang-key="faq.q2.question">En quoi la finance islamique peut-elle contribuer au développement post-conflit ?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-lang-key="faq.q2.answer">La finance islamique offre des avantages uniques dans les contextes post-conflit, particulièrement dans les sociétés à majorité musulmane comme l'Afghanistan. Elle favorise une plus grande inclusion financière en permettant l'accès aux services bancaires pour des populations qui, pour des raisons religieuses, s'abstiennent des services financiers conventionnels. De plus, les principes de partage des risques et de financement adossé à des actifs réels favorisent une reconstruction économique durable, ancrée dans l'économie réelle plutôt que spéculative. J'ai développé des modèles spécifiques adaptés aux réalités afghanes qui démontrent l'efficacité de cette approche.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-lang-key="faq.q3.question">Quels sont les secteurs économiques les plus prometteurs pour l'Afghanistan ?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-lang-key="faq.q3.answer">Malgré l'instabilité, l'Afghanistan possède un potentiel de développement significatif dans plusieurs secteurs. L'agriculture, en particulier les cultures traditionnelles à haute valeur ajoutée (safran, fruits à coque, raisins secs) représente un levier économique important. Le secteur minier, avec des gisements considérables de lithium, cuivre et terres rares, offre des perspectives à long terme. Enfin, l'artisanat traditionnel et le textile, valorisant le savoir-faire afghan, constituent des niches à forte valeur ajoutée. Ma thèse doctorale explore notamment les enjeux socioéconomiques liés à ces secteurs et les stratégies de développement adaptées au contexte afghan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title" data-lang-key="contact.mainTitle">Me contacter</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3 data-lang-key="contact.subTitle">Prenons contact</h3>
+                    <p data-lang-key="contact.description">Pour une consultation stratégique, une intervention ou une collaboration, n'hésitez pas à me contacter. Je vous répondrai dans les meilleurs délais.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4 data-lang-key="contact.emailLabel">Email</h4>
+                                <p>contact@alaincoppolani.com</p> <!-- Contenu fixe -->
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <h4 data-lang-key="contact.phoneLabel">Téléphone</h4>
+                                <p>+33 6 XX XX XX XX</p> <!-- Contenu fixe -->
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h4 data-lang-key="contact.basedInLabel">Basé à</h4>
+                                <p data-lang-key="about.location">Meudon, France</p> <!-- Réutilise la clé 'about.location' -->
+                                <p class="text-muted" data-lang-key="about.availability">Disponible pour missions internationales</p> <!-- Réutilise la clé 'about.availability' -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" data-lang-key="contact.form.nameLabel">Nom</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" data-lang-key="contact.form.emailLabel">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" data-lang-key="contact.form.subjectLabel">Sujet</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" data-lang-key="contact.form.messageLabel">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <div id="form-status" class="form-status hidden">
+                            <p data-lang-key="contact.form.successMsg">Votre message a été envoyé avec succès. Je vous répondrai dans les meilleurs délais.</p>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block" data-lang-key="contact.form.sendBtn">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">Alain Coppolani</a>
+                    <p data-lang-key="footer.tagline">Expert en Afghanistan et Finance Islamique</p>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-lang-key="footer.copyright">© 2025 Alain Coppolani. Tous droits réservés.</p>
+                <div class="footer-links">
+                    <a href="#" data-lang-key="footer.privacy">Politique de confidentialité</a>
+                    <a href="#" data-lang-key="footer.legal">Mentions légales</a>
+                </div>
+            </div>
+            <div class="footer-credit">
+                <p><span data-lang-key="footer.credits">Site conçu et développé par</span> <a href="https://julian-buzare.com" target="_blank" rel="noopener">julian-buzare.com</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <button id="back-to-top" class="back-to-top" aria-label="Retour en haut">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    
+    <script src="js/translations.js" defer></script>
+    <script src="js/main.js" defer></script>
+</body>
+</html>
