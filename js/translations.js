@@ -134,7 +134,7 @@ const translations = {
 
         // Hero
         "hero.name": "Alain Coppolani",
-        "hero.title": "Expert in Afghanistan and Islamic Finance",
+        "hero.title": "Expert on Afghanistan and Islamic Finance",
         "hero.description": "From field experience to strategic analysis, my unique background allows me to offer unparalleled perspectives on Afghanistan and Islamic finance.",
         "hero.btn.expertise": "Discover my expertise",
         "hero.btn.contact": "Contact me",
